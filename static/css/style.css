@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(135deg,#4285F4,#34A853);
+    min-height:100vh;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.navbar{
+    background:rgba(0,0,0,.75)!important;
+    backdrop-filter:blur(10px);
+}
+
+.container{
+    color:white;
+}
+
+.card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
+
+.btn-primary{
+    background:#EA4335;
+    border:none;
+    border-radius:50px;
+    padding:14px 35px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    background:#FBBC05;
+    color:black;
+    transform:translateY(-3px);
+}
+
+img{
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
